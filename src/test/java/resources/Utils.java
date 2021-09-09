@@ -1,26 +1,18 @@
 package resources;
 
-import static io.restassured.RestAssured.given;
-
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.util.Properties;
 
-import io.restassured.RestAssured;
-
-import static io.restassured.RestAssured.*;
 import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import io.restassured.specification.ResponseSpecification;
 
 public class Utils {
 	
@@ -62,5 +54,10 @@ public class Utils {
 		
 	}
 	
+	// code is push into github for the develop branche.
+	public String getXpath(String var) {
+
+		return var;
+	}
 
 }

@@ -58,5 +58,11 @@ public class TestDataBuild {
 
 		return count;
 	}
+
+	// code is pushed into git after commit into branch develop'
+	public int getChars(int no_lines) {
+
+		return no_lines;
+	}
 	
 }
