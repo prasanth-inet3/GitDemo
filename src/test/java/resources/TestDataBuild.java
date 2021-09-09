@@ -54,5 +54,9 @@ public class TestDataBuild {
 		return bookID;
 	}
 	
+	public int getBookAisle(int count) {
+
+		return count;
+	}
 	
 }

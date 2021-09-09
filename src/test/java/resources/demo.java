@@ -17,4 +17,11 @@ public class demo {
 	public String deletePlaceAPI() {
 		return deletePlaceAPI;
 	}
+
+	// make some changes to reflect in the git repo
+
+	public String wrongPlace(String wPlace) {
+
+		return wPlace;
+	}
 }
